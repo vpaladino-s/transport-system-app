@@ -1,0 +1,10 @@
+# transport-system
+Aplicación de sistema de transporte que modela la siguiente realidad:
+
+Se trata de una empresa de transporte interdepartamental que quiere informatizar el registro de los recorridos  de  las  líneas  de  ómnibus  que  unen  distintas  ciudades  del  país.  Cada  línea  une  a  dos ciudades y realiza una serie de paradas entre ciudades intermedias. 
+
+En esta primera versión se va a trabajar únicamente con los datos básicos de los recorridos de  las  líneas  existentes,  no  interesando  contemplar  otros  aspectos  como  venta  de  boletos, frecuencia de horarios, registro de las unidades que realizan los recorridos, etc. La cantidad de ciudades que visita la empresa es fija y ya está establecida de antemano.
+
+De cada ciudad se registra solamente su nombre. Cada línea se identifica mediante un código alfanumérico que define la directiva de la empresa y de ella se registra la ciudad de origen, la ciudad de destino y las paradas que componen el recorrido. De cada parada se registra el número de parada dentro del recorrido  y el nombre  de  la ciudad correspondiente. La primera parada del recorrido tendrá  el número  1,  la  siguiente  tendrá  el  número  2  y  así  sucesivamente.  No  existe  cota  alguna  para  la cantidad de líneas que posee la empresa ni para la cantidad de paradas que posee una línea. 
+
+@Hecho por Veronica Paladino y Gabriel Pérez
